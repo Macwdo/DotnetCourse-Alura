@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DOTNET6-COURSE-WEB-API</name>
+    </assembly>
+    <members>
+        <member name="M:DOTNET6_COURSE_WEB_API.Controllers.MovieController.AddMovie(DOTNET6_COURSE_WEB_API.Models.CreateMovieDto)">
+            <summary>
+            Add movie to database
+            </summary>
+            <param name="movieDto">
+                object with necessary fields to create the movie
+            </param>
+            <returns>IActionResult</returns>
+            <response code="201"> if movie additioned with success </response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IX1QP+V3cn4UO43u9Fs7exSVA+dOlztXJj350SaTLkg=",
+  "Source": "DOTNET6-COURSE-WEB-API",
+  "BasePath": "_content/DOTNET6-COURSE-WEB-API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
