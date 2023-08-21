@@ -1,5 +1,7 @@
 using System.Reflection;
 using DOTNET6_COURSE_WEB_API.Data;
+using DOTNET6_COURSE_WEB_API.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -35,6 +37,11 @@ builder.Services.AddDbContext<MovieContext>(options =>
     options.UseLazyLoadingProxies().UseNpgsql(dbConString);
 });
 
+#endregion
+
+#region Identity
+
+builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<MovieContext>();
 
 #endregion
 
